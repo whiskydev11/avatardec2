@@ -108,9 +108,9 @@ export default function Home() {
 							}}
 						>
 							<h1 className="font-bold text-3xl md:text-5xl ginto">Discord</h1>
-							<h1 className="mb-4 text-2xl md:text-4xl ginto">FAKE AVATAR DECORATIONS</h1>
+							<h1 className="mb-4 text-2xl md:text-4xl ginto">SAHTE AVATAR DEKORASYONLARI</h1>
 							<h2 className="text-sm sm:text-base">
-								Create profile pictures with avatar decorations so you can use them in Discord for free without spending money
+							Avatar dekorasyonları ile profil resimleri oluşturun ve bunları Discord'da para harcamadan ücretsiz olarak kullanın.
 							</h2>
 						</div>
 						<div className="flex md:flex-row flex-col items-center md:items-start gap-8 px-8 py-12 w-full max-w-[900px]">
@@ -142,13 +142,13 @@ export default function Home() {
 												}
 											}}
 										/>
-										Upload image
+										Görsel yükle
 									</button>
-									<p className="text-center sm:text-left">or</p>
+									<p className="text-center sm:text-left">veya</p>
 									<input
 										type="text"
 										className="bg-surface1 px-2.5 py-2 rounded transition grow outline-none"
-										placeholder="Enter image URL..."
+										placeholder="Görsel bağlantısı gir..."
 										onChange={async (e) => {
 											const res = await fetch(e.target.value);
 											if (res.status < 200 || res.status >= 400) return setAvUrl(null);
@@ -162,7 +162,7 @@ export default function Home() {
 										}}
 									/>
 								</div>
-								<p className="mt-4 mb-2">You can also pick from one of these avatars below</p>
+								<p className="mt-4 mb-2">Ayrıca aşağıdaki hazır avatarlardan birini de seçebilirsiniz.</p>
 								{/* SELECT AVATAR */}
 								<div className="flex flex-col gap-8 py-1 max-h-[280px] overflow-auto discord-scrollbar">
 									<div className="gap-3 grid grid-cols-3 sm:grid-cols-5 md:grid-cols-5 min-[600px]:grid-cols-6 min-[720px]:grid-cols-7 xs:grid-cols-4">
@@ -204,7 +204,7 @@ export default function Home() {
 								<hr />
 
 								{/* SELECT DECORATION */}
-								<p className="my-2 font-semibold text-gray-300 text-sm [letter-spacing:.05em] scale-y-90">AVATAR DECORATION</p>
+								<p className="my-2 font-semibold text-gray-300 text-sm [letter-spacing:.05em] scale-y-90">AVATAR DEKORASYONLARI</p>
 								<div className="flex flex-col gap-8 py-1 max-h-[532px] overflow-auto discord-scrollbar">
 									{decorationsData.map((category, index) => {
 										return (
@@ -371,14 +371,14 @@ export default function Home() {
 										<div className="right-[-4px] bottom-[-4px] absolute border-[5px] border-surface2 bg-[#229f56] rounded-full w-7 h-7"></div>
 									</div>
 									<div className="bg-surface0 m-4 mt-[calc(15rem/4)] p-4 rounded-lg w-[calc(100%-32px)]">
-										<p className="font-semibold text-xl [letter-spacing:.02em]">{name || "Display Name"}</p>
-										<p className="text-sm">{description || "username"}</p>
+										<p className="font-semibold text-xl [letter-spacing:.02em]">{name || "Whisky Lorean"}</p>
+										<p className="text-sm">{description || "whiskeyxd"}</p>
 										<hr />
-										<p className="font-semibold text-xs [letter-spacing:.02em] mb-1 scale-y-95">ABOUT ME</p>
+										<p className="font-semibold text-xs [letter-spacing:.02em] mb-1 scale-y-95">HAKKIMDA</p>
 										<p className="text-sm">
-											Hello, this is an example profile so that you can see what the profile picture would actually look like on Discord.
+										Merhaba, bu örnek bir profildir. Böylece Discord'da profil resminin nasıl görüneceğini görebilirsin.
 										</p>
-										<p className="font-semibold text-xs [letter-spacing:.02em] mt-3 mb-1 scale-y-95">DISCORD MEMBER SINCE</p>
+										<p className="font-semibold text-xs [letter-spacing:.02em] mt-3 mb-1 scale-y-95">ŞU TARİHTEN BERİ ÜYE</p>
 										<p className="text-sm">May 13, 2015</p>
 										<button
 											className="flex justify-center items-center gap-2 bg-secondary hover:bg-secondaryAlt mt-3 py-1.5 rounded-[3px] w-full transition"
@@ -396,7 +396,7 @@ export default function Home() {
 													d="M64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V173.3c0-17-6.7-33.3-18.7-45.3L352 50.7C340 38.7 323.7 32 306.7 32H64zm0 96c0-17.7 14.3-32 32-32H288c17.7 0 32 14.3 32 32v64c0 17.7-14.3 32-32 32H96c-17.7 0-32-14.3-32-32V128zM224 288a64 64 0 1 1 0 128 64 64 0 1 1 0-128z"
 												/>
 											</svg>
-											Save image
+											Görseli Kaydet
 										</button>
 									</div>
 								</div>
@@ -406,26 +406,26 @@ export default function Home() {
 										{
 											styled: false,
 											groupStart: true,
-											text: "Look at me I'm a beautiful butterfly",
+											text: "Bana bak ben güzel bir kelebeğim",
 										},
 										{
 											styled: false,
 											groupStart: false,
 											text: (
 												<>
-													Fluttering in the moonlight <Twemoji emoji={"🌝"} />
+													Ay ışığında pır pır ediyorum <Twemoji emoji={"🌝"} />
 												</>
 											),
 										},
 										{
 											styled: false,
 											groupStart: false,
-											text: "Waiting for the day when",
+											text: "O günü bekliyorum",
 										},
 										{
 											styled: false,
 											groupStart: false,
-											text: "I get a profile picture decoration",
+											text: "Profil resmi dekorasyonu alıyorum",
 										},
 										{
 											styled: true,
@@ -434,11 +434,11 @@ export default function Home() {
 												<>
 													{decoUrl ? (
 														<>
-															Yay! Here it is! <Twemoji emoji={"🎉"} />
+															Vay! İşte burada! <Twemoji emoji={"🎉"} />
 														</>
 													) : (
 														<>
-															Hmm... I still don't see it <Twemoji emoji={"🤔"} />
+															Hmm... Bir şey göremiyorum <Twemoji emoji={"🤔"} />
 														</>
 													)}
 												</>
@@ -487,12 +487,11 @@ export default function Home() {
 												<div className="flex flex-col">
 													{m.groupStart && (
 														<p className="h-fit font-medium text-base">
-															<span className="mr-1">{name || "Display Name"}</span>
+															<span className="mr-1">{name || "Whisky Lorean"}</span>
 															<span className="ml-1 h-4 text-secondaryLight text-xs">
-																Today at{" "}
-																{[new Date().getHours() % 12, new Date().getMinutes()]
-																	.map((e) => e.toString().padStart(2, "0"))
-																	.join(":") + (new Date().getHours() >= 12 ? " PM" : " AM")}
+																Bugün saat{" "}
+																{new Date().toLocaleTimeString('tr-TR', { hour: '2-digit', minute: '2-digit' })
+															}
 															</span>
 														</p>
 													)}
@@ -514,7 +513,7 @@ export default function Home() {
 								{/* pls support */}
 								<div className="flex flex-col justify-start items-stretch w-full text-center">
 									<p>
-										Help support the project <Twemoji emoji="🙏" />
+										Bu projeye destek ol <Twemoji emoji="🙏" />
 									</p>
 									<button
 										className="flex justify-center items-center gap-1 bg-secondary hover:bg-secondaryAlt mt-3 py-1.5 rounded-[3px] transition"
@@ -526,7 +525,7 @@ export default function Home() {
 											}, 1500);
 										}}
 										data-tooltip-id="share-tooltip"
-										data-tooltip-content="Copied to clipboard!"
+										data-tooltip-content="Bağlantı Kopyalandı!"
 									>
 										<svg height="1.1em" fill="none" viewBox="2 2 21 21" xmlns="http://www.w3.org/2000/svg">
 											<path
@@ -534,7 +533,41 @@ export default function Home() {
 												fill="#ffffff"
 											/>
 										</svg>
-										Share the website w/ your friends
+										Bu siteyi arkadaşlarınla paylaş
+									</button>
+									<Tooltip
+										id="share-tooltip"
+										opacity={1}
+										style={{
+											display: shared ? "block" : "none",
+											background: "#229f56",
+											color: "white",
+											borderRadius: "8px",
+											padding: "6px 12px 4px 12px",
+											boxShadow: "0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1)",
+										}}
+										closeEvents={[]}
+										place="bottom"
+									/>
+									<button
+										className="flex justify-center items-center gap-1 bg-secondary hover:bg-secondaryAlt mt-3 py-1.5 rounded-[3px] transition"
+										onClick={() => {
+											navigator.clipboard.writeText("https://discord-decorations.vercel.app/");
+											setShared(true);
+											setTimeout(() => {
+												setShared(false);
+											}, 1500);
+										}}
+										data-tooltip-id="share-tooltip"
+										data-tooltip-content="Bağlantı Kopyalandı!"
+									>
+										<svg height="1.1em" fill="none" viewBox="2 2 21 21" xmlns="http://www.w3.org/2000/svg">
+											<path
+												d="M17 3.002a2.998 2.998 0 1 1-2.148 5.09l-5.457 3.12a3.002 3.002 0 0 1 0 1.577l5.458 3.119a2.998 2.998 0 1 1-.746 1.304l-5.457-3.12a2.998 2.998 0 1 1 0-4.184l5.457-3.12A2.998 2.998 0 0 1 17 3.002Z"
+												fill="#ffffff"
+											/>
+										</svg>
+										Orijinal siteyi arkadaşlarınla paylaş
 									</button>
 									<Tooltip
 										id="share-tooltip"
@@ -562,45 +595,45 @@ export default function Home() {
 												fill="#ffffff"
 											/>
 										</svg>
-										Star the project on GitHub
+										Projeyi GitHub'da yıldızla
 									</button>
 								</div>
 							</div>
 						</div>
 						<p className="mb-4 text-center text-gray-400 text-sm">
-							Website made by{" "}
+							NOT: Bu Websitesi {" "}
 							<Link href={"https://github.com/ItsPi3141"} className="hover:text-gray-200 underline" target="_blank">
 								ItsPi3141
-							</Link>
+							</Link>{" "} tarafından geliştirilmiştir. Yalnızca türkçeleştirme yapılmıştır.
 							<br />
-							This project is open-source! View{" "}
+							Bu proje açık kaynaklıdır! {" "}
 							<Link
 								href={"https://github.com/ItsPi3141/discord-fake-avatar-decorations"}
 								className="hover:text-gray-200 underline"
 								target="_blank"
-							>
-								source code
-							</Link>{" "}
-							on GitHub.
+							>Kaynak kod
+							</Link>
+							larını görüntüle.
 							<br />
-							This site is NOT affiliated with Discord Inc. in any way. All images and assets belong to Discord Inc.
+							Bu sitenin hiçbir şekilde Discord Inc. ile bağlantısı BULUNMAMAKTADIR. Tüm görseller ve içerikler Discord Inc.'e aittir.
 							<br />
-							Discord Character avatars were created by Bred and Jace. View the collection on{" "}
+							Yukarıda bulunan hazır karakter avatarları Bred ve Jace tarafından oluşturuldu. {" "}
 							<Link
 								href={"https://www.figma.com/community/file/1316822758717784787/ultimate-discord-library"}
 								className="hover:text-gray-200 underline"
 								target="_blank"
 							>
 								Figma
-							</Link>
+							</Link>{" "}
+							üzerinde görüntüle.
 						</p>
 					</main>
 					<Modal
-						title={"Save Decorated Avatar"}
+						title={"Avatar dekorasyonunu indir"}
 						subtitle={
 							isGeneratingAv
-								? "Please wait while the image is being generated."
-								: "You can save the image below. You may need to extract a still frame from the image if you do not have an active Nitro subscription."
+								? "Görsel oluşturulurken lütfen bekleyin"
+								: "Aşağıdaki görseli indirebilirsiniz. Etkin bir Nitro aboneliğiniz yoksa görüntüden sabit bir kare (.png, .jpg, vb..) çıkarmanız gerekebilir. (Görsel .gif olduğu için Nitro gerektiriyor.)"
 						}
 						visible={downloadModalVisible}
 						onClose={() => {
@@ -613,16 +646,16 @@ export default function Home() {
 									<span className="loading-cube"></span>
 									<span className="loading-cube"></span>
 								</span>
-								<p>Creating image...</p>
+								<p>Görsel oluşturuluyor...</p>
 							</div>
 						) : (
 							<>
 								{generationFailed ? (
 									<div className="flex flex-col justify-center items-center gap-4 grow">
 										<p className="text-center text-red-400">
-											Failed to generate image
+											Görsel oluşturulamadı,
 											<br />
-											Please try again.
+											Lütfen tekrar dene.
 										</p>
 									</div>
 								) : (
@@ -635,7 +668,7 @@ export default function Home() {
 													onClick={() => {
 														const a = document.createElement("a");
 														a.href = finishedAv;
-														a.download = `discord_fake_avatar_decorations_${Date.now()}.gif`;
+														a.download = `discord_sahte_dekorasyon_${Date.now()}.gif`;
 														a.click();
 													}}
 												>
@@ -645,7 +678,7 @@ export default function Home() {
 															fill="#ffffff"
 														/>
 													</svg>
-													Save
+													İndir
 												</button>
 												<button
 													className="flex justify-center items-center gap-1 bg-secondary hover:bg-secondaryAlt py-1.5 rounded-[3px] w-72 transition"
@@ -664,7 +697,7 @@ export default function Home() {
 															clipRule="evenodd"
 														/>
 													</svg>
-													Extract still image
+													Hareketsiz olarak indir
 												</button>
 											</div>
 										</div>
@@ -697,13 +730,13 @@ export default function Home() {
 					<p className="top-8 absolute mx-8 max-w-xl font-bold text-4xl text-center ginto">
 						Discord
 						<br />
-						FAKE AVATAR DECORATIONS
+						SAHTE AVATAR DEKORASYONLARI
 					</p>
 					<span className="mb-8 loading-container">
 						<span className="loading-cube"></span>
 						<span className="loading-cube"></span>
 					</span>
-					<p>Loading...</p>
+					<p>Yükleniyor...</p>
 				</main>
 			)}
 		</>
