@@ -1,7 +1,7 @@
 [
 	{
 		"name": "Discord",
-		"description": "Miscellaneous decorations.",
+		"description": "Çeşitli dekorasyonlar.",
 		"banner": {
 			"image": [
 				{
@@ -19,45 +19,45 @@
 		},
 		"items": [
 			{
-				"name": "I'm a Clown",
-				"description": "I opened a bunch of Loot Boxes and all I got was this stupid clown decoration. Exclusive to April Fools 2024 for a limited time.",
+				"name": "Ben bir Palyaçoyum / Im a Clown",
+				"description": "Bir sürü Ganimet Kutusu açtım ve elime geçen tek şey bu palyaço dekorasyonuydu. Sınırlı bir süre için 1 Nisan Şakası 2024'e özel.",
 				"file": "/decorations/im_a_clown.png"
 			},
 			{
 				"name": "Mokoko",
-				"description": "An affectionate Mokoko wants to give you plenty of hugs! Exclusive to Mokoko Quest 2024 for a limited time.",
+				"description": "Sevecen bir Mokoko sana bolca sarılmak istiyor! Sınırlı bir süre için Mokoko Quest 2024'e özel.",
 				"file": "/decorations/mokoko.png"
 			},
 			{
 				"name": "Gyoiko Sakura",
-				"description": "A rare blossom only seen by a fortunate few. Given to new nitro subscribers between April 24, 2024 and May 1, 2024.",
+				"description": "Sadece şanslı bir azınlık tarafından görülen nadir bir çiçek. 24 Nisan 2024 ile 1 Mayıs 2024 tarihleri ​​arasında yeni nitro abonelerine verilir.",
 				"file": "/decorations/sakura_gyoiko.png"
 			},
 			{
-				"name": "Warp Helmet",
-				"description": "Traveling at the speed of light. Available to use until September 9, 2024.",
+				"name": "Çözgü Miğferi / Warp Helmet",
+				"description": "Işık hızında seyahat etmek. 9 Eylül 2024'e kadar kullanılabilir.",
 				"file": "/decorations/warp_helmet.png"
 			},
 			{
-				"name": "Fortnite Victory Crown",
-				"description": "A sparkly crown! Available to use until September 3, 2024.",
+				"name": "Fortnite Zafer Tacı / Fortnite Victory Crown",
+				"description": "Işıltılı bir taç! 3 Eylül 2024'e kadar kullanılabilir.",
 				"file": "/decorations/victory_crown.png"
 			},
 			{
 				"name": "Wingman Boba",
-				"description": "Your trusty VALORANT buddy, with a refreshing bubbly twist. Available to use until October 6, 2024.",
+				"description": "Canlandırıcı, köpüklü bir dokunuşla güvenilir VALORANT dostunuz. 6 Ekim 2024'e kadar kullanılabilir.",
 				"file": "/decorations/wingman_boba.png"
 			},
 			{
-				"name": "Freezer Bunny Lovebug",
-				"description": "A Sim's coolest companion! Available until September 30, 2024.",
+				"name": "Dondurucu Tavşan Lovebug / Freezer Bunny Lovebug",
+				"description": "Bir Sim'in en havalı arkadaşı! 30 Eylül 2024'e kadar kullanılabilir.",
 				"file": "/decorations/freezer_bunny_lovebug.png"
 			}
 		]
 	},
 	{
 		"name": "VALORANT CHAMPIONS",
-		"description": "All Paths End Here.",
+		"description": "Bütün Yollar Buraya Çıkıyor.",
 		"darkText": false,
 		"descriptionTopMargin": "4px",
 		"banner": {
@@ -67,25 +67,25 @@
 		},
 		"items": [
 			{
-				"name": "Yoru Dimensional Drift",
-				"description": "Looking for me?",
+				"name": "Yoru Boyutsal Kayma / Yoru Dimensional Drift",
+				"description": "Beni mi arıyor?",
 				"file": "/decorations/yoru_dimensional_drift.png"
 			},
 			{
-				"name": "Viper Poison Cloud",
-				"description": "No one can hold their breath forever.",
+				"name": "Viper Zehir Bulutu / Viper Poison Cloud",
+				"description": "Hiç kimse sonsuza kadar nefesini tutamaz.",
 				"file": "/decorations/viper_poison_cloud.png"
 			},
 			{
-				"name": "Cypher Neural Theft",
-				"description": "Nothing stays hidden from me.",
+				"name": "Cypher Sinir Hırsızlığı / Cypher Neural Theft",
+				"description": "Benden hiçbir şey gizli kalamıyor..",
 				"file": "/decorations/cypher_neural_theft.png"
 			}
 		]
 	},
 	{
 		"name": "Spongebob",
-		"description": "Celebrate 25 years of nautical nonsense!",
+		"description": "Denizcilik saçmalığının 25. yılını kutlayın!",
 		"darkText": true,
 		"hideTitle": true,
 		"descriptionTopMargin": "72px",
@@ -103,22 +103,22 @@
 		"items": [
 			{
 				"name": "SpongeBob",
-				"description": "Order up!",
+				"description": "Sipariş et!",
 				"file": "/decorations/spongebob.png"
 			},
 			{
-				"name": "Imagination",
-				"description": "With imagination, I can be anything I want.",
+				"name": "Hayal gücü / Imagination",
+				"description": "Hayal gücümle istediğim her şey olabilirim.",
 				"file": "/decorations/imagination.png"
 			},
 			{
 				"name": "Patrick Star",
-				"description": "He, she, me wumbo.",
+				"description": "O, o, ben wumbo.",
 				"file": "/decorations/patrick_star.png"
 			},
 			{
 				"name": "Flower Clouds",
-				"description": "Immerse yourself in Bikini Bottom.",
+				"description": "Kendinizi Bikini Bottom'a bırakın.",
 				"file": "/decorations/flower_clouds.png"
 			},
 			{
@@ -128,19 +128,19 @@
 			},
 			{
 				"name": "Sandy Cheeks",
-				"description": "Underwater breathing apparatus.",
+				"description": "Sualtı solunum cihazı.",
 				"file": "/decorations/sandy_cheeks.png"
 			},
 			{
 				"name": "MuscleBob",
-				"description": "How tough are ya?",
+				"description": "Ne kadar dayanıklısın?",
 				"file": "/decorations/musclebob.png"
 			}
 		]
 	},
 	{
 		"name": "Dark Fantasy",
-		"description": "Approach, wanderer... dangerously charming relics await.",
+		"description": "Yaklaş, gezgin... Tehlikeli derecede büyüleyici kalıntılar seni bekliyor.",
 		"darkText": false,
 		"banner": {
 			"image": "/banners/dark_fantasy.png",
@@ -149,40 +149,40 @@
 		},
 		"items": [
 			{
-				"name": "Midnight Sorceress",
+				"name": "Gece Yarısı Büyücüsü / Midnight Sorceress",
 				"description": "Wear the beauty of midnight.",
 				"file": "/decorations/midnight_sorceress.png"
 			},
 			{
-				"name": "Malefic Crown",
-				"description": "Fit for those who rule with an iron fist.",
+				"name": "Zararlı Taç / Malefic Crown",
+				"description": "Demir yumrukla yönetenlere yakışır.",
 				"file": "/decorations/malefic_crown.png"
 			},
 			{
-				"name": "Death's Edge",
+				"name": "Ölümün Kenarı / Death's Edge",
 				"description": "A great conversation starter... and ender.",
 				"file": "/decorations/deaths_edge.png"
 			},
 			{
-				"name": "Spirit Embers",
-				"description": "For protection against dark nights and unseen terrors.",
+				"name": "Ruh Közü / Spirit Embers",
+				"description": "Karanlık gecelere ve görünmeyen dehşetlere karşı koruma için.",
 				"file": "/decorations/spirit_embers.png"
 			},
 			{
-				"name": "Eldritch Ring",
-				"description": "For those days when you want to feel extra cursed.",
+				"name": "Tekinsiz Yüzük / Eldritch Ring",
+				"description": "Kendini ekstra lanetli hissetmek istediğin günler için.",
 				"file": "/decorations/eldritch_ring.png"
 			},
 			{
-				"name": "Arcane Sigil",
-				"description": "Those who stare will fall under your spell.",
+				"name": "Gizemli Mühür / Arcane Sigil",
+				"description": "Bakanlar büyünüze kapılacaklar.",
 				"file": "/decorations/arcane_sigil.png"
 			}
 		]
 	},
 	{
 		"name": "Palworld",
-		"description": "New island, new Pals, new adventures!",
+		"description": "Yeni ada, yeni Dostlar, yeni maceralar!",
 		"darkText": false,
 		"banner": {
 			"image": [
@@ -214,39 +214,39 @@
 		"items": [
 			{
 				"name": "Chillet",
-				"description": "Who doesn't love to cuddle?",
+				"description": "Kim sarılmayı sevmez?",
 				"file": "/decorations/chillet.png"
 			},
 			{
-				"name": "Pal Sphere",
-				"description": "Fingers crossed!",
+				"name": "Pal Küresi / Pal Sphere",
+				"description": "Parmaklar geçti!",
 				"file": "/decorations/pal_sphere.png"
 			},
 			{
 				"name": "Cattiva",
-				"description": "Cute... from a distance.",
+				"description": "Sevimli... uzaktan.",
 				"file": "/decorations/cattiva.png"
 			},
 			{
 				"name": "Lamball",
-				"description": "Cozy, fluffy, and clumsy!",
+				"description": "Rahat, kabarık ve beceriksiz!",
 				"file": "/decorations/lamball.png"
 			},
 			{
 				"name": "Depresso",
-				"description": "As enthusiastic as ever.",
+				"description": "Her zamanki gibi coşkulu.",
 				"file": "/decorations/depresso.png"
 			},
 			{
 				"name": "Selyne",
-				"description": "A mysterious moonlight encounter.",
+				"description": "Gizemli bir ay ışığı karşılaşması.",
 				"file": "/decorations/selyne.png"
 			}
 		]
 	},
 	{
 		"name": "Arcade",
-		"description": "Press START to play.",
+		"description": "Oyunu başlatmak için BAŞLAT'a bas.",
 		"darkText": false,
 		"banner": {
 			"image": "/banners/arcade.png",
@@ -255,33 +255,33 @@
 		},
 		"items": [
 			{
-				"name": "Joystick",
-				"description": "Pressing buttons harder definitely increases your chances of winning.",
+				"name": "Oyun Kolu / Joystick",
+				"description": "Düğmelere daha sert basmak kesinlikle kazanma şansınızı artırır.",
 				"file": "/decorations/joystick.png"
 			},
 			{
-				"name": "Clyde Invaders",
-				"description": "Rogue invaders have taken control of the galaxy. It's up to you to save the day.",
+				"name": "Clyde İstilacıları / Clyde Invaders",
+				"description": "Haydut istilacılar galaksinin kontrolünü ele geçirdi. Günü kurtarmak senin elinde.",
 				"file": "/decorations/clyde_invaders.png"
 			},
 			{
 				"name": "Pipedream",
-				"description": "If you stare at this for 5,461 seconds without blinking, you win.",
+				"description": "Buna 5.461 saniye boyunca gözünüzü kırpmadan bakarsanız kazanırsınız.",
 				"file": "/decorations/pipedream.png"
 			},
 			{
-				"name": "Hot Shot",
-				"description": "Baller status: Pro.",
+				"name": "Tam İsabet / Hot Shot",
+				"description": "Ballerin durumu: Pro.",
 				"file": "/decorations/hot_shot.png"
 			},
 			{
-				"name": "Mallow Jump",
-				"description": "Hop till you drop!",
+				"name": "Zıp zıp Mallow / Mallow Jump",
+				"description": "Düşene kadar atla!",
 				"file": "/decorations/mallow_jump.png"
 			},
 			{
 				"name": "Slither 'n Snack",
-				"description": "Gobble and grow to become the biggest snake in the garden.",
+				"description": "Bahçedeki en büyük yılan olmak için yutun ve büyüyün.",
 				"file": "/decorations/slither_n_snack.png"
 			}
 		]
