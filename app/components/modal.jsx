@@ -47,7 +47,7 @@ export function Modal(props) {
 						className="bg-primary hover:bg-primaryAlt py-2 px-4 rounded transition"
 						onClick={props.onClose}
 					>
-						Close
+						Kapat
 					</button>
 				</div>
 			</div>
