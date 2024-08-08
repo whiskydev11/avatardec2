@@ -60,7 +60,7 @@ export default function GifExtractor() {
 			{loaded ? (
 				<>
 					<main className="flex flex-col items-center gap-2 px-8 py-12 w-screen h-screen text-white overflow-auto overflow-x-hidden discord-scrollbar">
-						<p className="mb-8 text-3xl ginto">Gif Frame Extractor</p>
+						<p className="mb-8 text-3xl ginto">Hareketsiz görüntü oluşturucu (.png)</p>
 
 						{file == null ? (
 							<>
@@ -86,9 +86,9 @@ export default function GifExtractor() {
 											}
 										}}
 									/>
-									Upload a GIF
+									Bir GIF yükle
 								</button>
-								<p className="text-gray-300 text-sm">You can also drag and drop a GIF file here</p>
+								<p className="text-gray-300 text-sm">Ayrıca bir GIF dosyasını buraya sürükleyip bırakabilirsiniz.</p>
 							</>
 						) : (
 							<>
@@ -121,7 +121,7 @@ export default function GifExtractor() {
 											setFrames(await imagesFromGif(ffmpegRef.current, file));
 										}}
 									>
-										Extract frames
+										Hareketsiz görüntü (.png)
 									</button>
 								</div>
 								<div className="flex flex-wrap justify-center gap-2 mt-8">
@@ -135,7 +135,7 @@ export default function GifExtractor() {
 												onClick={() => {
 													const a = document.createElement("a");
 													a.href = `data:image/png;base64,${frame}`;
-													a.download = `discord_fake_avatar_decorations_${Date.now()}.png`;
+													a.download = `discord_sahte_dekorasyon_${Date.now()}.png`;
 													a.click();
 												}}
 											>
@@ -170,16 +170,16 @@ export default function GifExtractor() {
 					<p className="top-8 absolute mx-8 max-w-xl font-bold text-4xl text-center ginto">
 						Discord
 						<br />
-						FAKE AVATAR DECORATIONS
+						SAHTE AVATAR DEKORASYONLARI
 						<br />
 						<br />
-						<span className="text-3xl text-gray-300 ginto">Gif Frame Extractor</span>
+						<span className="text-3xl text-gray-300 ginto">Hareketsiz Görüntü Oluşturucu (.png)</span>
 					</p>
 					<span className="mb-8 loading-container">
 						<span className="loading-cube"></span>
 						<span className="loading-cube"></span>
 					</span>
-					<p>Loading...</p>
+					<p>Yükleniyor...</p>
 				</main>
 			)}
 		</>
