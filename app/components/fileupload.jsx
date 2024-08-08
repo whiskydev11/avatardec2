@@ -79,8 +79,8 @@ export function FileUpload({ onUpload }) {
 								</div>
 							</div>
 						</div>
-						<p className="font-bold text-2xl">{error ? "Invalid file format" : "Upload image"}</p>
-						<p className="text-sm">{error ? "Please select a valid image file" : "Drop your avatar here to use it"}</p>
+						<p className="font-bold text-2xl">{error ? "Geçersiz dosya formatı" : "Görsel yükle"}</p>
+						<p className="text-sm">{error ? "Lütfen geçerli bir görsel dosyası seçin" : "Avatarınızı buraya bırakın"}</p>
 					</div>
 				</div>
 			)}
